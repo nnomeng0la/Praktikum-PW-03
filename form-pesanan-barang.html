@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+    <title>Pesanan Barang</title>
+</head>
+<body>
+        <nav style="height: 50px; display: grid; inline-size: 30px; border: 1px solid black; ">
+            <ul style="display: flex; list-style: none;">
+                <li style="margin-right: 200px;">
+                    <a href="">Home</a> |
+                </li>
+                <LI style="margin-right: 200px;">
+                    <a href="">Generate Link</a> |
+                </LI>
+                <LI style="margin-right: 200px;">
+                    <a href="">Transcation History</a> |
+                </LI>
+                <LI style="margin-right: 200px;">
+                    <a href="">Policy</a> |
+                </LI>
+                <li>
+                    <a href="">Logout</a>
+                </li>
+                
+            </ul>
+         </nav>
+    <main style="display: flex; justify-content: space-between; align-items: center; padding: 30px;">
+        <div style="display: flex; justify-content: space-between;">
+            <div style="width: 100%;">
+                <img src="https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/11/Macbook-air.jpg" alt="poto barang" width="500px">
+                <button value="Upload Picture" style="margin-right: 1000px;">Upload Picture</button>
+
+            </div>
+            <div style="width: max-content;">
+                <form action="">
+                    <div>
+                        <label for="input-Title-Here:">Title Here :</label>
+                        <input type="text" id="input-Title-Here" placeholder="MacBook Air"/>
+                    </div>
+                    <div>
+                        <label for="input-Description">Description :</label><br>
+                        <textarea name="Descriptions" id="input-Description" cols="30" rows="10"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="input-Account-Number">Account Number :</label>
+                        <input type="number" id="input-Account-Number" placeholder="123-456-789-0"/>
+                    </div>
+                    <div>
+                        <label for="input-Bank">Bank :</label>
+                        <select name="Bank" id="input-Bank">
+                            <option value="HSBC">HSBC</option>
+                            <option value="BRI">BRI</option>
+                            <option value="BNI">BNI</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="input-Akun-Holder">Akun Holder :</label>
+                        <input type="text" id="input-Akun-Holder"/>
+                    </div>
+                    <div>
+                        <label for="input-Transaction">Transcation :<input type="number" id="input-Transaction" min="1" max="7" style="width: 20px;"></label>
+                        
+                    </div>
+                    <div style="margin-left: 50px;">
+                        <p style="margin-left: 50px;">* if the transcation is for 3 person, choose 3 from, the drop-down list</p>
+                            <input type="checkbox" >
+                            <label for="">Send to Mobile Phone</label>
+                            <br>
+                            <input type="checkbox" >
+                            <label for="">Send to Email</label>
+                    </div>
+                    <div>
+                        <label for="input-Send-to-Mobile-Phone">Send to Mobile Phone :</label>
+                        <input type="text" id="input-Send-to-Mobile-Phone">
+                    </div>
+                    <div>
+                        <label for="input-Send-to-Email">Send to Email :</label>
+                        <input type="email" id="input-Send-to-Email"/>
+                    </div>
+                    <br>
+                    <br>
+                    <input type="submit" value="Generate Nabr Link" style="background-color: greenyellow;">
+
+                </form>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
